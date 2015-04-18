@@ -8,7 +8,8 @@ Do not expect a very much clean, tested or even smart code here... this was just
 
 ###INSTALL
 Clone this repo and run like:
-    nodejs ./dependencywalker.js <Path to ELF file> <Path to .so location dir> [Path to .so location dir] ... [Path to .so location dir]
+
+        nodejs ./dependencywalker.js <Path to ELF file> <Path to .so location dir> [Path to .so location dir] ... [Path to .so location dir]
 
 It needs [sysvelf](https://github.com/sifteo/node-elf) module to work but it's alredy included, though.
 
